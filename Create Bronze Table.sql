@@ -3,4 +3,4 @@ CLUSTER BY AUTO AS
 SELECT
   *
 FROM
-  PARQUET.`/Volumes/main/anicholls/issued_loans/LoanStats*`;
+  main.anicholls.issued_loans;
